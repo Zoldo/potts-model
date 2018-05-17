@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2CE27601B7D07070081FAF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CE275F1B7D07070081FAF7 /* AppDelegate.m */; };
+		D2CE27621B7D07070081FAF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CE27611B7D07070081FAF7 /* main.m */; };
+		D2CE27641B7D07070081FAF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CE27631B7D07070081FAF7 /* Images.xcassets */; };
+		D2CE27671B7D07070081FAF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CE27651B7D07070081FAF7 /* MainMenu.xib */; };
+		D2CE27731B7D07070081FAF7 /* potts_modelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CE27721B7D07070081FAF7 /* potts_modelTests.m */; };
+		D2CE277E1B7D07250081FAF7 /* pointsNeighbors.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CE277D1B7D07250081FAF7 /* pointsNeighbors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CE276D1B7D07070081FAF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CE27511B7D07070081FAF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CE27581B7D07070081FAF7;
+			remoteInfo = "potts-model";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2CE27591B7D07070081FAF7 /* potts-model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "potts-model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CE275D1B7D07070081FAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CE275E1B7D07070081FAF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2CE275F1B7D07070081FAF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2CE27611B7D07070081FAF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2CE27631B7D07070081FAF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2CE27661B7D07070081FAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2CE276C1B7D07070081FAF7 /* potts-modelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "potts-modelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CE27711B7D07070081FAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CE27721B7D07070081FAF7 /* potts_modelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = potts_modelTests.m; sourceTree = "<group>"; };
+		D2CE277C1B7D07250081FAF7 /* pointsNeighbors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointsNeighbors.h; sourceTree = "<group>"; };
+		D2CE277D1B7D07250081FAF7 /* pointsNeighbors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pointsNeighbors.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CE27561B7D07070081FAF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CE27691B7D07070081FAF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2CE27501B7D07070081FAF7 = {
+			isa = PBXGroup;
+			children = (
+				D2CE275B1B7D07070081FAF7 /* potts-model */,
+				D2CE276F1B7D07070081FAF7 /* potts-modelTests */,
+				D2CE275A1B7D07070081FAF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CE275A1B7D07070081FAF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE27591B7D07070081FAF7 /* potts-model.app */,
+				D2CE276C1B7D07070081FAF7 /* potts-modelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CE275B1B7D07070081FAF7 /* potts-model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE275E1B7D07070081FAF7 /* AppDelegate.h */,
+				D2CE275F1B7D07070081FAF7 /* AppDelegate.m */,
+				D2CE277C1B7D07250081FAF7 /* pointsNeighbors.h */,
+				D2CE277D1B7D07250081FAF7 /* pointsNeighbors.m */,
+				D2CE27631B7D07070081FAF7 /* Images.xcassets */,
+				D2CE27651B7D07070081FAF7 /* MainMenu.xib */,
+				D2CE275C1B7D07070081FAF7 /* Supporting Files */,
+			);
+			path = "potts-model";
+			sourceTree = "<group>";
+		};
+		D2CE275C1B7D07070081FAF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE275D1B7D07070081FAF7 /* Info.plist */,
+				D2CE27611B7D07070081FAF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2CE276F1B7D07070081FAF7 /* potts-modelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE27721B7D07070081FAF7 /* potts_modelTests.m */,
+				D2CE27701B7D07070081FAF7 /* Supporting Files */,
+			);
+			path = "potts-modelTests";
+			sourceTree = "<group>";
+		};
+		D2CE27701B7D07070081FAF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE27711B7D07070081FAF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CE27581B7D07070081FAF7 /* potts-model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CE27761B7D07080081FAF7 /* Build configuration list for PBXNativeTarget "potts-model" */;
+			buildPhases = (
+				D2CE27551B7D07070081FAF7 /* Sources */,
+				D2CE27561B7D07070081FAF7 /* Frameworks */,
+				D2CE27571B7D07070081FAF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "potts-model";
+			productName = "potts-model";
+			productReference = D2CE27591B7D07070081FAF7 /* potts-model.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CE276B1B7D07070081FAF7 /* potts-modelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CE27791B7D07080081FAF7 /* Build configuration list for PBXNativeTarget "potts-modelTests" */;
+			buildPhases = (
+				D2CE27681B7D07070081FAF7 /* Sources */,
+				D2CE27691B7D07070081FAF7 /* Frameworks */,
+				D2CE276A1B7D07070081FAF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CE276E1B7D07070081FAF7 /* PBXTargetDependency */,
+			);
+			name = "potts-modelTests";
+			productName = "potts-modelTests";
+			productReference = D2CE276C1B7D07070081FAF7 /* potts-modelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CE27511B7D07070081FAF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = peter.weilnboeck;
+				TargetAttributes = {
+					D2CE27581B7D07070081FAF7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D2CE276B1B7D07070081FAF7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D2CE27581B7D07070081FAF7;
+					};
+				};
+			};
+			buildConfigurationList = D2CE27541B7D07070081FAF7 /* Build configuration list for PBXProject "potts-model" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CE27501B7D07070081FAF7;
+			productRefGroup = D2CE275A1B7D07070081FAF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CE27581B7D07070081FAF7 /* potts-model */,
+				D2CE276B1B7D07070081FAF7 /* potts-modelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CE27571B7D07070081FAF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CE27641B7D07070081FAF7 /* Images.xcassets in Resources */,
+				D2CE27671B7D07070081FAF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CE276A1B7D07070081FAF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CE27551B7D07070081FAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CE277E1B7D07250081FAF7 /* pointsNeighbors.m in Sources */,
+				D2CE27621B7D07070081FAF7 /* main.m in Sources */,
+				D2CE27601B7D07070081FAF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CE27681B7D07070081FAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CE27731B7D07070081FAF7 /* potts_modelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CE276E1B7D07070081FAF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CE27581B7D07070081FAF7 /* potts-model */;
+			targetProxy = D2CE276D1B7D07070081FAF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2CE27651B7D07070081FAF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CE27661B7D07070081FAF7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2CE27741B7D07080081FAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2CE27751B7D07080081FAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2CE27771B7D07080081FAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "potts-model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2CE27781B7D07080081FAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "potts-model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2CE277A1B7D07080081FAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "potts-modelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potts-model.app/Contents/MacOS/potts-model";
+			};
+			name = Debug;
+		};
+		D2CE277B1B7D07080081FAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "potts-modelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potts-model.app/Contents/MacOS/potts-model";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CE27541B7D07070081FAF7 /* Build configuration list for PBXProject "potts-model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CE27741B7D07080081FAF7 /* Debug */,
+				D2CE27751B7D07080081FAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CE27761B7D07080081FAF7 /* Build configuration list for PBXNativeTarget "potts-model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CE27771B7D07080081FAF7 /* Debug */,
+				D2CE27781B7D07080081FAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CE27791B7D07080081FAF7 /* Build configuration list for PBXNativeTarget "potts-modelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CE277A1B7D07080081FAF7 /* Debug */,
+				D2CE277B1B7D07080081FAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CE27511B7D07070081FAF7 /* Project object */;
+}
